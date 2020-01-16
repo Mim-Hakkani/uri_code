@@ -1,0 +1,18 @@
+//Salary
+
+#include <iostream>
+#include<stdio.h>
+
+using namespace std;
+
+int main() {
+
+  int num,hour;
+  float hur_per_salary;
+  cin>>num>>hour>>hur_per_salary;
+  cout<<"NUMBER = "<<num<<endl;
+  float total =hur_per_salary*hour;
+//cout<<"MEDIA = "<<d<<endl;
+  printf("SALARY = U$ %0.2f\n",total);
+  return 0;
+}
