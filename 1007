@@ -1,0 +1,15 @@
+//Difference between two number
+#include <iostream>
+#include<stdio.h>
+
+using namespace std;
+
+int main() {
+
+  int a,b,c,d,e;
+  cin>>a>>b>>c>>d;
+  int DIFE =(a*b)-(c*d);
+//cout<<"MEDIA = "<<d<<endl;
+  printf("DIFERENCA = %d\n",DIFE);
+  return 0;
+}
