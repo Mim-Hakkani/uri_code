@@ -1,0 +1,20 @@
+//Salary with Bonus
+
+#include <iostream>
+#include<stdio.h>
+
+using namespace std;
+
+int main() {
+
+    string name;
+    double fix_sal,commition,total_sal;
+
+    cin>>name>>fix_sal>>commition;
+
+    total_sal=fix_sal+(commition*.15);
+
+    printf("TOTAL = R$ %0.2f\n",total_sal);
+
+    return 0;
+}
