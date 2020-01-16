@@ -1,0 +1,20 @@
+//simple calculation
+#include <iostream>
+#include<stdio.h>
+
+using namespace std;
+
+int main() {
+
+
+    double num,unit,price,num_1,unit_1,price_1;
+
+    cin>>num>>unit>>price;
+    cin>>num_1>>unit_1>>price_1;
+
+    double total_sal=(unit*price) + (unit_1*price_1);
+
+    printf("VALOR A PAGAR: R$ %0.2lf\n",total_sal);
+
+    return 0;
+}
