@@ -1,0 +1,17 @@
+//Area of A Circle
+
+#include <iostream>
+#include<stdio.h>
+
+using namespace std;
+
+int main() {
+
+     double R,b,pi=3.14159;
+     cin>>R;
+     double c= pi*R*R;
+     //cout<<"X = "<<c<<endl;
+     printf("A=%0.4lf\n",c);
+
+    return 0;
+}
