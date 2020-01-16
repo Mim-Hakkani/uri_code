@@ -1,0 +1,17 @@
+//Agarage two
+
+#include <iostream>
+#include<stdio.h>
+
+using namespace std;
+
+int main() {
+
+  double a,b,c,d,e;
+  cin>>a>>b>>e;
+  c=(a*2)+(b*3)+(e*5);
+  d=c/10;
+//cout<<"MEDIA = "<<d<<endl;
+  printf("MEDIA = %0.1lf\n",d);
+  return 0;
+}
