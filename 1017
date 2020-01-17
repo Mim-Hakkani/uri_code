@@ -1,0 +1,13 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+  double time,avg_dis,total_liter;
+  cin>>time>>avg_dis;
+  total_liter=(time*avg_dis)/12;
+  printf("%0.3lf\n",total_liter);
+  return 0;
+
+}
+
