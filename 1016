@@ -1,0 +1,13 @@
+//Distance
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+  int spd,dis;
+  cin>>spd;
+  dis=spd*2;
+  cout<<dis<<" minutos"<<endl;
+  return 0;
+}
+
