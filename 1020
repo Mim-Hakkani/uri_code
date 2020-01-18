@@ -1,0 +1,15 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+    int i_day,y,m,d,y1;
+    cin>>i_day;
+    y=i_day/365;
+    y1=i_day%365;
+    m=y1/30;
+    d=y1%30;
+    cout<<y<<" ano(s)"<<endl<<m<<" mes(es)"<<endl<<d<<" dia(s)"<<endl;
+
+
+}
