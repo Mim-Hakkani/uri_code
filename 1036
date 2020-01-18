@@ -1,0 +1,35 @@
+#include<iostream>
+#include<stdio.h>
+#include<math.h>
+using namespace std;
+int main()
+{
+    float a,b,c,r1,r2,q,p;
+    cin>>a>>b>>c ;
+    p=(b*b)-(4*a*c);
+    q=sqrt(p);
+
+
+
+     if(a!=0 && q>0)
+    {
+    //q=sqrt(p);
+    r1=(-b+q);
+    r2=(-b-q);
+    float r3=r1/(2*a);
+    float r4=r2/(2*a);
+
+    printf("R1 = %0.5f\n",r3);
+    printf("R2 = %0.5f\n",r4);
+
+    }
+    else
+    {
+        cout<<"Impossivel calcular"<<endl;
+    }
+
+
+
+
+
+}
