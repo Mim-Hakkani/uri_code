@@ -1,0 +1,15 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+    int i_sec,h,m,s,h1;
+    cin>>i_sec;
+    h=i_sec/3600;
+    h1=i_sec%3600;
+    m=h1/60;
+    s=i_sec%60;
+    cout<<h<<":"<<m<<":"<<s<<endl;
+
+
+}
