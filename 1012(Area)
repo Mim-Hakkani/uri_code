@@ -1,0 +1,17 @@
+#include<iostream>
+#include<stdio.h>
+#define pi 3.14159
+using namespace std;
+int main(){
+
+float a,b,c,t_area,red_area,tra_area,s_area,rec_area;
+cin>>a>>b>>c;
+t_area=(a*c)/2;
+red_area=pi*c*c;
+tra_area=((a+b)/2)*c;
+s_area=b*b;
+rec_area=a*b;
+printf("TRIANGULO: %0.3f\nCIRCULO: %0.3f\nTRAPEZIO: %0.3f\nQUADRADO: %0.3f\nRETANGULO: %0.3f\n",t_area,red_area,tra_area,s_area,rec_area);
+}
+
+
